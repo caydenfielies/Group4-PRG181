@@ -11,9 +11,10 @@ double sale;
 Console.WriteLine("----------------------------------");
 Console.WriteLine("Best Buy Supermarket Sales Tracker");
 Console.WriteLine("----------------------------------");
-Console.WriteLine("Type quit to stop the program.\n");
-bool running = true;
+Console.WriteLine("Type QUIT to stop the program.\n");
 
+bool running = true;
+// While loop to keep looping the program until user quits.
 while (running)
 {
     // Ask user for department code input.
