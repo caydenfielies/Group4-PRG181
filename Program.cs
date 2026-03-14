@@ -53,7 +53,7 @@ while (running)
         // Ask user for sales transaction amount.
         Console.WriteLine("\nEnter a sales transaction amount.");
         string input = Console.ReadLine() ?? "";
-        if (input.ToUpper() == "quit".ToUpper())
+        if (input.ToUpper() == "QUIT")
         {
             running = false;
             continue;
@@ -88,7 +88,7 @@ while (running)
                 for (int j = 0; j < transactionCount.Length; j++)
                 {
                     double totalPrices = 0;
-                    for (int n = 0; n < salesTransactions.GetLength(0); n++)
+                    for (int n = 0; n < transactionCount[j]; n++)
                     {
                         totalPrices += salesTransactions[j, n];
                     }
