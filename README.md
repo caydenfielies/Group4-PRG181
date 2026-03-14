@@ -58,7 +58,7 @@ The program uses three arrays to manage data:
 **Option 1 — Run from source (requires .NET 8 SDK)**
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/BestBuysSupermarket.git
+https://github.com/caydenfielies/Group4-PRG181.git
  
 # Navigate into the project folder
 cd BestBuysSupermarket
