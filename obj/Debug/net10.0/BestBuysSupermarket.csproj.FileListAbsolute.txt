@@ -1,0 +1,14 @@
+/Users/caydenfielies/Desktop/Belgium/PRG181_Project1/BestBuysSupermarket/bin/Debug/net10.0/BestBuysSupermarket
+/Users/caydenfielies/Desktop/Belgium/PRG181_Project1/BestBuysSupermarket/bin/Debug/net10.0/BestBuysSupermarket.deps.json
+/Users/caydenfielies/Desktop/Belgium/PRG181_Project1/BestBuysSupermarket/bin/Debug/net10.0/BestBuysSupermarket.runtimeconfig.json
+/Users/caydenfielies/Desktop/Belgium/PRG181_Project1/BestBuysSupermarket/bin/Debug/net10.0/BestBuysSupermarket.dll
+/Users/caydenfielies/Desktop/Belgium/PRG181_Project1/BestBuysSupermarket/bin/Debug/net10.0/BestBuysSupermarket.pdb
+/Users/caydenfielies/Desktop/Belgium/PRG181_Project1/BestBuysSupermarket/obj/Debug/net10.0/BestBuysSupermarket.GeneratedMSBuildEditorConfig.editorconfig
+/Users/caydenfielies/Desktop/Belgium/PRG181_Project1/BestBuysSupermarket/obj/Debug/net10.0/BestBuysSupermarket.AssemblyInfoInputs.cache
+/Users/caydenfielies/Desktop/Belgium/PRG181_Project1/BestBuysSupermarket/obj/Debug/net10.0/BestBuysSupermarket.AssemblyInfo.cs
+/Users/caydenfielies/Desktop/Belgium/PRG181_Project1/BestBuysSupermarket/obj/Debug/net10.0/BestBuysSupermarket.csproj.CoreCompileInputs.cache
+/Users/caydenfielies/Desktop/Belgium/PRG181_Project1/BestBuysSupermarket/obj/Debug/net10.0/BestBuysSupermarket.dll
+/Users/caydenfielies/Desktop/Belgium/PRG181_Project1/BestBuysSupermarket/obj/Debug/net10.0/refint/BestBuysSupermarket.dll
+/Users/caydenfielies/Desktop/Belgium/PRG181_Project1/BestBuysSupermarket/obj/Debug/net10.0/BestBuysSupermarket.pdb
+/Users/caydenfielies/Desktop/Belgium/PRG181_Project1/BestBuysSupermarket/obj/Debug/net10.0/BestBuysSupermarket.genruntimeconfig.cache
+/Users/caydenfielies/Desktop/Belgium/PRG181_Project1/BestBuysSupermarket/obj/Debug/net10.0/ref/BestBuysSupermarket.dll
