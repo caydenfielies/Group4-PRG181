@@ -69,7 +69,7 @@ while (running)
             // If input is valid, run code as normal.
 
             // To check if department is full capacity or not.
-            if (transactionCount[foundIndex] >= 3)
+            if (transactionCount[foundIndex] >= 1000)
             {
                 Console.WriteLine("\n->\tDepartment is at full capacity.\n");
             } else
