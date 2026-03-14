@@ -50,7 +50,7 @@ The program uses three arrays to manage data:
 
 ### Prerequisites
 
-- [.NET 8 SDK](https://dotnet.microsoft.com/download)
+- [.NET 10 SDK](https://dotnet.microsoft.com/download)
 - [Visual Studio Code](https://code.visualstudio.com/) with the C# Dev Kit extension
 
 ### Running the Program
@@ -82,7 +82,7 @@ BestBuysSupermarket.exe
 ./BestBuysSupermarket
 ```
  
-> **Note:** The executable was built for Windows. If you're on Mac or Linux, running from source with `dotnet run` is recommended.
+> **Note:** You're running .NET 10. On Mac/Linux the executable has no `.exe` extension — just run `./BestBuysSupermarket` directly.
 ---
 
 ## 💻 Example Output
@@ -120,10 +120,19 @@ ACC     0       R 0.00
 ```
 BestBuysSupermarket/
 │
-├── Program.cs                        ← main source code
-├── BestBuysSupermarket.csproj        ← project configuration
-├── README.md                         ← you are here
-└── obj/                              ← auto-generated build files
+├── Program.cs                                ← main source code
+├── BestBuysSupermarket.csproj                ← project configuration
+├── BestBuysSupermarket.sln                   ← solution file
+├── README.md                                 ← you are here
+│
+├── bin/Debug/net10.0/
+│   ├── BestBuysSupermarket                   ← executable (Mac/Linux)
+│   ├── BestBuysSupermarket.dll               ← compiled program
+│   ├── BestBuysSupermarket.deps.json         ← dependency manifest
+│   ├── BestBuysSupermarket.pdb               ← debug symbols
+│   └── BestBuysSupermarket.runtimeconfig.json← runtime configuration
+│
+└── obj/                                      ← auto-generated build files (do not edit)
 ```
 
 ---
