@@ -55,17 +55,34 @@ The program uses three arrays to manage data:
 
 ### Running the Program
 
+**Option 1 — Run from source (requires .NET 8 SDK)**
 ```bash
 # Clone the repository
 git clone https://github.com/yourusername/BestBuysSupermarket.git
-
+ 
 # Navigate into the project folder
 cd BestBuysSupermarket
-
+ 
 # Run the program
 dotnet run
 ```
-
+ 
+**Option 2 — Run the executable directly (no .NET SDK required)**
+ 
+A prebuilt executable is included in the repository:
+ 
+```bash
+# Navigate to the executable
+cd BestBuysSupermarket/bin/Debug/net8.0/
+ 
+# Run on Windows
+BestBuysSupermarket.exe
+ 
+# Run on Mac/Linux
+./BestBuysSupermarket
+```
+ 
+> **Note:** The executable was built for Windows. If you're on Mac or Linux, running from source with `dotnet run` is recommended.
 ---
 
 ## 💻 Example Output
