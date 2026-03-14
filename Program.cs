@@ -1,6 +1,4 @@
 ﻿// Array to track store department codes.
-using System.Numerics;
-
 string[] departments = {"ELE", "CAM", "OFF", "HOM", "AUD", "GAM", "ACC"};
 // Array to track sales transactions.
 double[,] salesTransactions = new double[7, 1000];
