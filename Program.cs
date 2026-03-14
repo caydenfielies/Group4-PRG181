@@ -1,4 +1,6 @@
 ﻿// Array to track store department codes.
+using System.Numerics;
+
 string[] departments = {"ELE", "CAM", "OFF", "HOM", "AUD", "GAM", "ACC"};
 // Array to track sales transactions.
 double[,] salesTransactions = new double[7, 1000];
@@ -52,7 +54,7 @@ while (running)
         // Else run code as normal.
 
         // Ask user for sales transaction amount.
-        Console.WriteLine("\nEnter a sales transaction amount.");
+        Console.Write("\nEnter a sales transaction amount.\nR ");
         string input = Console.ReadLine() ?? "";
         if (input.ToUpper() == "QUIT")
         {
@@ -86,15 +88,23 @@ while (running)
                 // Display the results.
                 Console.WriteLine("DEPT\tQTY\tAMOUNT");
                 Console.WriteLine("-----------------------------");
+                
+                double totalPrices = 0;
                 for (int j = 0; j < transactionCount.Length; j++)
                 {
-                    double totalPrices = 0;
+                    double prices = 0;
                     for (int n = 0; n < transactionCount[j]; n++)
                     {
-                        totalPrices += salesTransactions[j, n];
+                        prices += salesTransactions[j, n];
                     }
-                    Console.WriteLine(departments[j] + "\t" + transactionCount[j] + "\t" + "R " + totalPrices.ToString("F2"));
+                    
+                    totalPrices += prices;
+
+                    Console.WriteLine(departments[j] + "\t" + transactionCount[j] + "\t" + "R " + prices.ToString("F2"));
                 }
+                Console.WriteLine("-----------------------------");
+
+                Console.WriteLine("Total\t\t" + "R " + totalPrices.ToString("F2"));
                 Console.WriteLine("-----------------------------\n");
             }
         } else

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BestBuysSupermarket")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d578f9b9c4fdceb635d767c308f683112a7a5f0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2f9e4479ee83f418e09cd04a537699704cfe85c")]
 [assembly: System.Reflection.AssemblyProductAttribute("BestBuysSupermarket")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BestBuysSupermarket")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

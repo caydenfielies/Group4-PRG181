@@ -12,3 +12,4 @@
 /Users/caydenfielies/Desktop/Belgium/PRG181_Project1/BestBuysSupermarket/obj/Debug/net10.0/BestBuysSupermarket.pdb
 /Users/caydenfielies/Desktop/Belgium/PRG181_Project1/BestBuysSupermarket/obj/Debug/net10.0/BestBuysSupermarket.genruntimeconfig.cache
 /Users/caydenfielies/Desktop/Belgium/PRG181_Project1/BestBuysSupermarket/obj/Debug/net10.0/ref/BestBuysSupermarket.dll
+/Users/caydenfielies/Desktop/Belgium/PRG181_Project1/BestBuysSupermarket/obj/Debug/net10.0/BestBuysSupermarket.sourcelink.json

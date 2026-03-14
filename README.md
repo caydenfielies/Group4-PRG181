@@ -12,15 +12,15 @@ This program allows cashiers to log sales transactions per department and view r
 
 ## 🏬 Departments
 
-| Code | Department     |
-|------|----------------|
-| ELE  | Electronics    |
-| CAM  | Cameras        |
-| OFF  | Office         |
-| HOM  | Home           |
-| AUD  | Audio          |
-| GAM  | Gaming         |
-| ACC  | Accessories    |
+| Code | Department  |
+| ---- | ----------- |
+| ELE  | Electronics |
+| CAM  | Cameras     |
+| OFF  | Office      |
+| HOM  | Home        |
+| AUD  | Audio       |
+| GAM  | Gaming      |
+| ACC  | Accessories |
 
 ---
 
@@ -56,33 +56,35 @@ The program uses three arrays to manage data:
 ### Running the Program
 
 **Option 1 — Run from source (requires .NET 8 SDK)**
+
 ```bash
 # Clone the repository
 https://github.com/caydenfielies/Group4-PRG181.git
- 
+
 # Navigate into the project folder
 cd BestBuysSupermarket
- 
+
 # Run the program
 dotnet run
 ```
- 
+
 **Option 2 — Run the executable directly (no .NET SDK required)**
- 
+
 A prebuilt executable is included in the repository:
- 
+
 ```bash
 # Navigate to the executable
 cd BestBuysSupermarket/bin/Debug/net8.0/
- 
+
 # Run on Windows
 BestBuysSupermarket.exe
- 
+
 # Run on Mac/Linux
 ./BestBuysSupermarket
 ```
- 
+
 > **Note:** You're running .NET 10. On Mac/Linux the executable has no `.exe` extension — just run `./BestBuysSupermarket` directly.
+
 ---
 
 ## 💻 Example Output
@@ -97,7 +99,7 @@ Enter a department code. (ELE, CAM, OFF, HOM, AUD, GAM, ACC)
 ELE
 
 Enter a sales transaction amount.
-299.99
+R 299.99
 
 Success!
 
